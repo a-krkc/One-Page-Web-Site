@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <meta name="keywords" content="landing page, responsive, html, css">
+    <meta name="description" content="Landing Page">
+
+    <!--Fonts Google-->
+    <!--https://fonts.google.com/specimen/Delicious+Handrawn-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&display=swap" rel="stylesheet">
+
+    <!--cdnjs Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!--Css-->
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" media="(max-width:768px)" href="css/mobile.css">
+    <link rel="stylesheet" media="(max-width:500px)" href="css/mobile.css">
+
+</head>
+<body>
+
+    <a href="#navbar" id="bg-scroll" title="Yukarı" style="display: inline">Top<span></span></a>
+
+    <header class="bg-light smaller">
+        <div class="container">
+            <nav id="navbar">
+                <h1 class="heading-big smaller">Hacker Cat's Personal Blog</h1>
+                <ul>
+                    <li><a href="#home"><i class="fa fa-home"></i> Home Page</a></li>
+                    <li><a href="#social"><i class="fab fa-twitter"></i> Social Media</a></li>
+                    <li><a href="#about"><i class="fa fa-id-card"></i> About</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="home">
+        <img src="images/cat.jpg" alt="cat" class="transition">
+        <div class="name text-center">
+            <h2 class="heading-big smaller">HACKER CAT</h2>
+            <p class="smaller">FOUNDER of HACKITTY CO.</p>
+        </div>
+        <div class="smaller">
+            <a href="#topics" class="btn btn-dark"><i class="fa fa-bug"></i> Researches</a>
+            <a href="#topics" class="btn btn-dark"><i class="fa fa-pencil-alt"></i> Articles</a>
+        </div>
+        <div class="down">
+            <a href="#topics" class="btn"><i class="fa fa-chevron-down"></i></a>
+        </div>
+    </section>
+
+    <section id="topics" class="bg-light smaller">
+        <div class="items">
+            <article class="item">
+                <ul>
+                    <li><a href="https://www.linux.org/" id="lc"><i class="fab fa-linux fa-2x"></i></a></li>
+                    <li><a href="https://www.gnu.org/software/bash/"><i class="fa fa-terminal fa-2x"></i></a></li>
+                    <li><a href="https://git-scm.com/"><i class="fab fa-git fa-2x"></i></a></li>
+                </ul>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aspernatur consectetur culpa cum cupiditate distinctio, doloremque ducimus error esse, hic id illum impedit labore maxime minima minus mollitia nemo obcaecati odit perferendis placeat praesentium quaerat quas qui sapiente sequi sunt tempora tenetur unde veritatis? Doloribus ea in libero obcaecati unde. Aut commodi dignissimos ea eius enim esse exercitationem impedit in ipsum nobis, omnis perferendis porro provident qui repudiandae sunt suscipit? Adipisci, animi at culpa debitis delectus, dicta dolor dolore eos et facere fugit incidunt iusto mollitia officiis optio porro praesentium quaerat quas qui quia!</p>
+            </article>
+            <article class="item">
+                <ul>
+                     <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML"><i class="fab fa-html5 fa-2x"></i></a></li>
+                     <li><a href="https://css-tricks.com/"><i class="fab fa-css3 fa-2x"></i></a></li>
+                     <li><a href="https://www.javascript.com/"><i class="fab fa-js fa-2x"></i></a></li>
+                </ul>
+                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aspernatur consectetur culpa cum cupiditate distinctio, doloremque ducimus error esse, hic id illum impedit labore maxime minima minus mollitia nemo obcaecati odit perferendis placeat praesentium quaerat quas qui sapiente sequi sunt tempora tenetur unde veritatis? Doloribus ea in libero obcaecati unde. Aut commodi dignissimos ea eius enim esse exercitationem impedit in ipsum nobis, omnis perferendis porro provident qui repudiandae sunt suscipit? Adipisci, animi at culpa debitis delectus, dicta dolor dolore eos et facere fugit incidunt iusto mollitia officiis optio porro praesentium quaerat quas qui quia!</p>
+            </article>
+            <article class="item">
+                <ul>
+                    <li><a href="https://devdocs.io/c/"><i class="fab fa-c fa-2x"></i></a></li>
+                    <li><a href="https://python.org"><i class="fab fa-python fa-2x"></i></a></li>
+                    <li><a href="https://www.java.com/"><i class="fab fa-java fa-2x"></i></a></li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aspernatur consectetur culpa cum cupiditate distinctio, doloremque ducimus error esse, hic id illum impedit labore maxime minima minus mollitia nemo obcaecati odit perferendis placeat praesentium quaerat quas qui sapiente sequi sunt tempora tenetur unde veritatis? Doloribus ea in libero obcaecati unde. Aut commodi dignissimos ea eius enim esse exercitationem impedit in ipsum nobis, omnis perferendis porro provident qui repudiandae sunt suscipit? Adipisci, animi at culpa debitis delectus, dicta dolor dolore eos et facere fugit incidunt iusto mollitia officiis optio porro praesentium quaerat quas qui quia!</p>
+            </article>
+            <article class="item">
+                <ul>
+                     <li><a href="https://thehackernews.com/"><i class="fa fa-rss fa-2x"></i></a></li>
+                     <li><a href="https://flask.palletsprojects.com/en/2.2.x/"><i class="fa fa-flask fa-2x"></i></a></li>
+                     <li><a href="https://en.wikipedia.org/wiki/Asterisk"><i class="fab fa-asterisk fa-2x"></i></a></li>
+                </ul>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aspernatur consectetur culpa cum cupiditate distinctio, doloremque ducimus error esse, hic id illum impedit labore maxime minima minus mollitia nemo obcaecati odit perferendis placeat praesentium quaerat quas qui sapiente sequi sunt tempora tenetur unde veritatis? Doloribus ea in libero obcaecati unde. Aut commodi dignissimos ea eius enim esse exercitationem impedit in ipsum nobis, omnis perferendis porro provident qui repudiandae sunt suscipit? Adipisci, animi at culpa debitis delectus, dicta dolor dolore eos et facere fugit incidunt iusto mollitia officiis optio porro praesentium quaerat quas qui quia!</p>
+            </article>
+        </div>
+    </section>
+    <hr>
+
+    <section id="about" class="bg-light">
+        <div class="items">
+            <article class="item">
+                <h3>About</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci aliquid amet autem consectetur ea est fuga fugiat laudantium pariatur quas quisquam quo quod ratione, sed similique, unde, velit! Labore molestiae nemo odit omnis. Ab aliquid amet dolore earum laboriosam mollitia repudiandae sit suscipit. Blanditiis delectus deserunt id laudantium maxime similique tenetur voluptatem! Ipsam minima possimus rem similique? Animi dolore ducimus maiores odit sed. A aperiam, cumque deserunt dicta distinctio dolore est excepturi fugiat, ipsam ipsum iste laboriosam libero magnam magni necessitatibus nisi non nulla odio officia quam quasi ratione recusandae rerum sapiente sequi sint sit unde! Autem ex tempora veniam!</p>
+            </article>
+        </div>
+    </section>
+    <hr>
+
+    <section id="social" class="bg-light">
+        <div class="items">
+            <article class="item">
+                <h3>Social</h3>
+                <ul>
+                    <li><a href="#"><i class="fab fa-twitter"></i> @hacker_cat</a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i> @hacker_cat</a></li>
+                    <li><a href="mailto:info@hacker.cat"><i class="fa fa-paper-plane"></i> info@hacker.cat</a></li>
+                </ul>
+            </article>
+        </div>
+    </section>
+    <hr>
+
+    <footer id="footer">
+        <div class="smaller">
+            <p>Copyright &copy; 2022, Hacker Cat</p>
+            <p>Developed with HTML & CSS3</p>
+        </div>
+    </footer>
+
+</body>
+</html>

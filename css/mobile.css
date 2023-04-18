@@ -1,0 +1,22 @@
+#navbar {
+    flex-direction: column;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    overflow: hidden;
+    height: 90px;
+}
+
+#topics .items {
+    flex-direction: column;
+}
+
+#topics .items .item {
+    width: 100%;
+}
+
+.smaller {
+    font-size: smaller;
+}
+#about, #about h3, #social, #social h3 {
+    font-size: small;
+}
